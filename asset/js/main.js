@@ -109,7 +109,7 @@ function postsMarkup(post) {
         <img src="./asset/img/${post.immagine}" class="card-img-top">
 
         <div class="card-body p-1 d-flex justify-content-between align-items-center">
-            <i style="color: rgba(128, 128, 128, 0.414);" class="fa-solid fa-heart fs-4 mt-1"></i>
+            <i style="color: rgba(128, 128, 128, 0.414);" class="fa-solid fa-heart fs-4 mt-1 cursorPointer"></i>
 
             <span style="font-size: 17px; font-family: 'Oswald', sans-serif;">piace a <span class="likes-counter">${post.likes}</span> persone</span>
         </div>
