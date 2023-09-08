@@ -16,7 +16,37 @@ Ogni post dovrà avere le informazioni necessarie per stampare la relativa card:
 const posts =[
     {
         id : 1,
-        autore : 'danielplebani',
-        foto : 
+        autore : 'daniel plebani',
+        fotoAutore : '1.avif',
+        data : '06-03-2003',
+        testo : 'ma che bella giornata oggi!!!',
+        immagine : '1p.jpg',
+        likes : 150
+    },
+
+    {
+        id : 2,
+        autore : 'luca rossi',
+        fotoAutore : '2.avif',
+        data : '04-09-2001',
+        testo : 'in compagnia :)',
+        immagine : '2p.jpg',
+        likes : 22
+    },
+
+    {
+        id : 3,
+        autore : 'marta esposito',
+        fotoAutore : '3.jpg',
+        data : '01-24-2004',
+        testo : 'viva la vita!!!!',
+        immagine : '3p.jpg',
+        likes : 233
     }
-]
+];
+
+console.log(posts);
+/*
+Milestone 2
+Prendendo come riferimento il layout di esempio presente nell'html, stampiamo i post del nostro feed.
+*/
